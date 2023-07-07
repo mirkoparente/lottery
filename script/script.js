@@ -10,8 +10,10 @@ const row = document.getElementById("row");
 const random = function () {
   const div = document.createElement("div");
   div.classList.add("col");
-  div.innerHTML = `<div class="contain ">
-  <img id="img" style="cursor:pointer" src="https://lirp.cdn-website.com/f8677140/dms3rep/multi/opt/Logo+moto+360+senza+Rettangolo-160w.png"/>
+  div.innerHTML = `<div class="d-flex flex-column justify-content-center contain ">
+  <div class="d-flex justify-content-center">
+  <img id="img" style="cursor:pointer" class="w-50 " src="https://lirp.cdn-website.com/f8677140/dms3rep/multi/opt/Logo+moto+360+senza+Rettangolo-160w.png"/>
+  </div>
 <h1 class="title fs-4 text-center text-capitalize" id="h1">Premi per scoprire se hai vinto!</h1>
 <button class="fs-4" id="btn-lottery">Gioca</button>
 <p id="p"></p>
