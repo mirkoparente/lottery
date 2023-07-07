@@ -9,7 +9,7 @@ window.onload = function () {
 const row = document.getElementById("row");
 const random = function () {
   const div = document.createElement("div");
-  div.classList.add("col", "col-md-6");
+  div.classList.add("col");
   div.innerHTML = `<div class="contain ">
   <img id="img" style="cursor:pointer" src="https://lirp.cdn-website.com/f8677140/dms3rep/multi/opt/Logo+moto+360+senza+Rettangolo-160w.png"/>
 <h1 class="title fs-4 text-center text-capitalize" id="h1">Premi per scoprire se hai vinto!</h1>
